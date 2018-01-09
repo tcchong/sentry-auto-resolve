@@ -1,0 +1,32 @@
+{
+  "name": "sentry-auto-resolve",
+  "version": "1.0.0",
+  "description": "A Probot app for auto resolve event on Sentry",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcchong/sentry-auto-resolve.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcchong/sentry-auto-resolve/issues"
+  },
+  "homepage": "https://github.com/tcchong/sentry-auto-resolve#readme",
+  "dependencies": {
+    "lodash": "~4.17.4",
+    "probot": "~4.0.0",
+    "request": "~2.83.0",
+    "request-promise": "~4.2.2"
+  },
+  "devDependencies": {
+    "localtunnel": "~1.8.3"
+  }
+}
