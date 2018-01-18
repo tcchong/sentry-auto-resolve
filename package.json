@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "probot run ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --forceExit"
   },
   "repository": {
     "type": "git",
@@ -22,11 +22,17 @@
   "homepage": "https://github.com/tcchong/sentry-auto-resolve#readme",
   "dependencies": {
     "lodash": "~4.17.4",
+    "nock": "^9.1.6",
     "probot": "~4.0.0",
     "request": "~2.83.0",
     "request-promise": "~4.2.2"
   },
   "devDependencies": {
+    "eslint": "^4.15.0",
+    "jest": "^22.1.2",
     "localtunnel": "~1.8.3"
+  },
+  "jest": {
+    "collectCoverage": true
   }
 }
